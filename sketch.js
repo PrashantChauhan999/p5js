@@ -77,10 +77,8 @@ function modelReady() {
 function draw() {
   let canvasWidth = isFullScreen ? width : windowWidth;
   let canvasHeight = isFullScreen ? height : windowHeight;
-  // if (flipHorizontal === "true") {
   translate(canvasWidth, 0);
   scale(-1, 1);
-  // }
   image(video, 0, 0, canvasWidth, canvasHeight);
 
   let allInside = true;
