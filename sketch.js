@@ -6,7 +6,7 @@ let skeleton;
 let url = new URL(window.location.href);
 let params = new URLSearchParams(url.search);
 
-let width = params.get("width") || 720;
+let width = params.get("width") || 1920;
 let height = params.get("height") || 1080;
 let enableSkeleton = params.get("enableSkeleton") || true;
 let enableKeyPoints = params.get("enableKeyPoints") || true;
